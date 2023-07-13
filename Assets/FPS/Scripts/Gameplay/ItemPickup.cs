@@ -7,6 +7,7 @@ namespace Unity.FPS.Gameplay
 {
     public partial class ItemPickup : Pickup
     {
+        //ADDED pickup item, handle sending requests to add item to inventory and message to destroy it
 
         public string ItemName = "ItemCube";
         bool picked = false;

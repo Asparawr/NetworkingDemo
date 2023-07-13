@@ -144,11 +144,11 @@ namespace Unity.FPS.Game
         public GameObject Owner { get; set; }
         public GameObject SourcePrefab { get; set; }
         public bool IsCharging { get; private set; }
-        [SyncVar]
+        [SyncVar] //ADDED used for weapon transform visual sync
         public float CurrentAmmoRatio;
         public bool IsWeaponActive { get; private set; }
         public bool IsCooling { get; private set; }
-        [SyncVar]
+        [SyncVar] //ADDED used for weapon transform visual sync
         public float CurrentCharge;
         public Vector3 MuzzleWorldVelocity { get; private set; }
 

@@ -75,7 +75,7 @@ namespace Unity.FPS.Gameplay
 
         public bool IsAiming { get; private set; }
         public bool IsPointingAtEnemy { get; private set; }
-        [SyncVar]
+        [SyncVar] //ADDED currently equipped weapon sync
         public int ActiveWeaponIndex;
 
         public UnityAction<WeaponController> OnSwitchedToWeapon;
@@ -106,7 +106,7 @@ namespace Unity.FPS.Gameplay
             }
             SwitchToWeaponIndex(ActiveWeaponIndex, true);
 
-            if (!isLocalPlayer) return;
+            if (!isLocalPlayer) return; //ADDED separation of local local player logic
 
             GameObject cameraGameObject = GameObject.FindGameObjectWithTag("MainCamera");
             //Get playercameradata
@@ -134,7 +134,8 @@ namespace Unity.FPS.Gameplay
         
         void Update()
         {
-            if (!isLocalPlayer) return;
+            if (!isLocalPlayer) return; //ADDED separation of local local player logic
+
             if (!setupFinished) return;
             // shoot handling
             WeaponController activeWeapon = GetActiveWeapon();

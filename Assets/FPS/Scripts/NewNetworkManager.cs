@@ -11,12 +11,12 @@ using Mirror;
 namespace Unity.FPS
 {
     public class NewNetworkManager : NetworkManager
-    {
+    { 
         // Overrides the base singleton so we don't
         // have to cast to this type everywhere.
         public static new NewNetworkManager singleton { get; private set; }
-
-        public static event Action OnPlayerInstantiated;
+        //ADDED some events
+        public static event Action OnPlayerInstantiated; // unused placeholder for adding stuff to player on instantiation
         public static event Action OnServerStart;
         public static event Action OnServerStop;
         public static event Action OnClientStart;

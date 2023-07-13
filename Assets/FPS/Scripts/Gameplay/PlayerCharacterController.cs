@@ -139,6 +139,7 @@ namespace Unity.FPS.Gameplay
         void Awake()
         {
             if (!isLocalPlayer) return;
+            //ADDED local player behaviour separetion
             instance = this;
             ActorsManager actorsManager = FindObjectOfType<ActorsManager>();
             if (actorsManager != null)
@@ -150,6 +151,7 @@ namespace Unity.FPS.Gameplay
             Health = GetComponent<Health>();
             DebugUtility.HandleErrorIfNullGetComponent<Health, PlayerCharacterController>(Health, this, gameObject);
             Health.OnDie += OnDie;
+            //ADDED local player behaviour separetion
             if (!isLocalPlayer) return;
             // get camera component
             PlayerCamera.enabled = true;

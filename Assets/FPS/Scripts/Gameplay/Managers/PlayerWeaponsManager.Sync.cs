@@ -8,7 +8,7 @@ namespace Unity.FPS.Gameplay
 {
     [RequireComponent(typeof(PlayerInputHandler))]
     public partial class PlayerWeaponsManager : NetworkBehaviour
-    {
+    { //ADDED weapon switch
         
         [Command]
         public void CmdSwitchToWeaponIndex(int index, bool force)

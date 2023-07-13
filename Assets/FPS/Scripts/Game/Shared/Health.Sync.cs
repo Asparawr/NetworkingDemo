@@ -8,7 +8,7 @@ namespace Unity.FPS.Game
     {
         [ClientRpc]
         public void RpcSetHealth(float amount)
-        {
+        { //ADDED set health for each client
             CurrentHealth = amount;
         }
     }

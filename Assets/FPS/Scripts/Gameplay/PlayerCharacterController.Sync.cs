@@ -7,13 +7,11 @@ namespace Unity.FPS.Gameplay
 {
     public partial class PlayerCharacterController : NetworkBehaviour
     {
+    //ADDED target rpc to client player, to move player to spawnpoint
         [TargetRpc]
         public void RpcRespawn(NetworkConnectionToClient conn)
         {
-            // Disable character controller and re-enable it in 0.1s
-            // to reset the character controller internal state.
-            // This will prevent us from falling through the floor
-            // after respawn.
+            // Disable character controller and re-enable it in 0.1s to teleport
             if (isLocalPlayer){
                 m_Controller.enabled = false;
                 Invoke(nameof(EnableCharacterController), 0.1f);

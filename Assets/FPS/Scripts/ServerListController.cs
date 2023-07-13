@@ -10,6 +10,7 @@ namespace Mirror.Discovery
     public class ServerListController : MonoBehaviour
     {
         // Based on NetworkDiscoveryHUD
+        //ADDED custon server list controller
         readonly Dictionary<long, ServerResponse> discoveredServers = new Dictionary<long, ServerResponse>();
         Vector2 scrollViewPos = Vector2.zero;
 

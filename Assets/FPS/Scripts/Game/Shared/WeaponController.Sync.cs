@@ -7,7 +7,7 @@ using UnityEngine.Events;
 namespace Unity.FPS.Game
 {
     public partial class WeaponController : NetworkBehaviour
-    {
+    { //ADDED player command for shooting
         [Command]
         void CmdHandleShoot(float currentCharge)
         {

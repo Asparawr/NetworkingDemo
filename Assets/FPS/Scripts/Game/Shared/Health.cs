@@ -32,7 +32,7 @@ namespace Unity.FPS.Game
 
         public void Heal(float healAmount)
         {
-            if (!isServer) return;
+            if (!isServer) return; //ADDED check to only heal on server
             float healthBefore = CurrentHealth;
             CurrentHealth += healAmount;
             CurrentHealth = Mathf.Clamp(CurrentHealth, 0f, MaxHealth);

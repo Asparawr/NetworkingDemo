@@ -7,6 +7,7 @@ namespace Unity.FPS.Gameplay
 {
     public class HealthPickup : Pickup
     {
+        //ADDED local health pickup, sending message to server to heal
         public struct HealMessage : NetworkMessage
         {
             public float healAmount;

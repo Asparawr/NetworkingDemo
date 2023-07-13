@@ -1,4 +1,4 @@
-Library: C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+Library: C:\Users\jeder\OneDrive\Dokumenty\aaaa\NetworkingDemo\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-14
 --target=AVX2
@@ -121,15 +121,15 @@ Library: C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\Sta
 --compilation-defines=MIRROR_73_OR_NEWER
 --compilation-defines=MIRROR_78_OR_NEWER
 --compilation-defines=MIRROR_79_OR_NEWER
+--compilation-defines=ENABLE_VR_MODULE
+--compilation-defines=ENABLE_XR_MODULE
+--compilation-defines=CSHARP_7_OR_LATER
+--compilation-defines=CSHARP_7_3_OR_NEWER
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
 --compilation-defines=PACKAGE_ANIMATION
 --compilation-defines=PACKAGE_UITOOLKIT
---compilation-defines=CSHARP_7_OR_LATER
---compilation-defines=CSHARP_7_3_OR_NEWER
---compilation-defines=ENABLE_VR_MODULE
---compilation-defines=ENABLE_XR_MODULE
 --compilation-defines=ENABLE_BURST_1_0_0_OR_NEWER
 --compilation-defines=USING_ANIMATION_MODULE
 --compilation-defines=USING_PHYSICS2D_MODULE
@@ -142,8 +142,8 @@ Library: C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\Sta
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --linker-options=PdbAltPath="My project_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\Burst
---output=C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--temp-folder=C:\Users\jeder\OneDrive\Dokumenty\aaaa\NetworkingDemo\Temp\Burst
+--output=C:\Users\jeder\OneDrive\Dokumenty\aaaa\NetworkingDemo\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 --pdb-search-paths=Temp/ManagedSymbols/
 
@@ -282,15 +282,15 @@ Library: C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\Sta
 --compilation-defines=MIRROR_73_OR_NEWER
 --compilation-defines=MIRROR_78_OR_NEWER
 --compilation-defines=MIRROR_79_OR_NEWER
+--compilation-defines=ENABLE_VR_MODULE
+--compilation-defines=ENABLE_XR_MODULE
+--compilation-defines=CSHARP_7_OR_LATER
+--compilation-defines=CSHARP_7_3_OR_NEWER
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
 --compilation-defines=PACKAGE_ANIMATION
 --compilation-defines=PACKAGE_UITOOLKIT
---compilation-defines=CSHARP_7_OR_LATER
---compilation-defines=CSHARP_7_3_OR_NEWER
---compilation-defines=ENABLE_VR_MODULE
---compilation-defines=ENABLE_XR_MODULE
 --compilation-defines=ENABLE_BURST_1_0_0_OR_NEWER
 --compilation-defines=USING_ANIMATION_MODULE
 --compilation-defines=USING_PHYSICS2D_MODULE
@@ -303,8 +303,8 @@ Library: C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\Sta
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --linker-options=PdbAltPath="My project_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\Burst
---output=C:\Users\jeder\OneDrive\Dokumenty\AndrzejVoxelTasks\My project\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--temp-folder=C:\Users\jeder\OneDrive\Dokumenty\aaaa\NetworkingDemo\Temp\Burst
+--output=C:\Users\jeder\OneDrive\Dokumenty\aaaa\NetworkingDemo\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 --pdb-search-paths=Temp/ManagedSymbols/
 

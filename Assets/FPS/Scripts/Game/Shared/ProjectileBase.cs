@@ -6,7 +6,7 @@ using UnityEngine.Events;
 namespace Unity.FPS.Game
 {
     public abstract class ProjectileBase : NetworkBehaviour
-    {
+    { //ADDED spawning projectiles for each client
         [SyncVar]
         public GameObject Owner;
         [SyncVar]
