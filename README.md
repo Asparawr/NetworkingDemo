@@ -12,3 +12,9 @@ I synced:
 - obstacles health and loot drops - server based
 - Sync player inventory - request/response system the worker system uses. Whole inventory logged in console after pickup
 - Weapons “animation” sync - visual transform movement. Command sync of relevant variables
+
+Video:
+
+
+https://github.com/user-attachments/assets/f055b198-f23a-4f76-aa7b-4fa2abb63955
+
